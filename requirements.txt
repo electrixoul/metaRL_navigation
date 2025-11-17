@@ -1,0 +1,19 @@
+# Python Dependencies for gridenv_es_test_ideal_obs_repeat_task
+
+# Core Dependencies
+jax>=0.4.0
+jaxlib>=0.4.0  # with CUDA support
+flax>=0.7.0
+optax>=0.1.0
+
+# Numerical Computing
+numpy>=1.20.0
+
+# Visualization (optional, for rendering)
+opencv-python>=4.5.0
+
+# Note: For GPU support, you need to install JAX with CUDA support:
+# pip install --upgrade "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+# 
+# Or for CUDA 11:
+# pip install --upgrade "jax[cuda11_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
